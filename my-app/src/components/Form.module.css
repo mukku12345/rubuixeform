@@ -1,0 +1,354 @@
+.container{
+
+}
+
+.header{
+    height: 300px;
+    /* background-color: rgb(43, 37, 37); */
+    /* background:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)) */
+  
+}
+.h2{
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+.h3{
+    height: 150px;
+    background-color: rgb(170, 54, 81);
+}
+.h4{
+    height: 300px;
+    background-color:rgb(211, 200, 200) ;
+    padding: 10px;
+    
+
+}
+/* .h5{
+    height: 300px;
+    background-color: rgb(210, 200, 200);
+
+} */
+
+.hImages{
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+
+    /* filter: blur(3px);
+    -webkit-filter: blur(4px);  */
+    /* background-position: center;
+    background-repeat: no-repeat; */
+    background-size: cover;
+    
+}
+.headings{
+    margin: -200px;
+    margin-left: 200px;
+}
+.tech{
+    color: rgb(180, 15, 15);
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.for{
+    font-size: 10px;
+margin-right: 70px;
+}
+.teens{
+    color: rgb(130, 44, 44);
+    margin: -10px;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.h2box{
+    background-color: green;
+    height: 100px;
+    width: 210px;
+    position: relative;
+    margin-top: -60px;
+    margin-left: 70px;
+}
+.h3child{
+    margin-left: 100px;
+    color: white;
+    padding: 6px;
+}
+.h4child{
+    display: flex;
+    justify-content:center;
+    gap: 3px;
+    text-align: center;
+}
+.card1{
+    background-color:rgb(255, 255, 255) ;
+    height: 200px;
+    width: 130px;
+    border-radius: 12px;
+    /* box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px; */
+    box-shadow: rgba(51, 51, 50, 0.8) -6px -2px 16px 0px;
+
+
+}
+.card2{
+    background-color:rgb(255, 255, 255) ;
+
+
+    height: 200px;
+    width: 130px;
+    border-radius: 12px;
+    /* box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px; */
+    margin-top: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -21px, rgba(0, 0, 0, 0.3) 0px 18px 36px -81px;
+
+    /* position: relative; */
+
+
+}
+.card3{
+    background-color:rgb(255, 255, 255) ;
+
+
+    height: 200px;
+    width: 130px;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+
+
+
+
+}
+.card4{
+    background-color:rgb(255, 255, 255) ;
+
+
+    height: 200px;
+    width: 130px;
+    border-radius: 12px;
+    margin-top: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -21px, rgba(0, 0, 0, 0.3) 0px 18px 36px -81px;
+
+
+
+
+
+}
+.card5{
+    background-color:rgb(255, 255, 255) ;
+
+
+    height: 200px;
+    width: 130px;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+
+    
+
+}
+.card1child{
+    width: 100%;
+    background-color: rgb(41, 38, 38);
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+    margin-top: -17px;
+    /* padding: 5px; */
+
+
+}
+.card2child{
+    width: 100%;
+    background-color: rgb(130, 44, 44);
+    margin-top: 62px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+
+
+}
+.card3child{
+    width: 100%;
+    background-color: orangered;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+    margin-top: -17px;
+
+
+}
+.card4child{
+    width: 100%;
+    background-color:green;
+    margin-top: 91px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+
+    
+
+}
+.card5child{
+    width: 100%;
+    background-color:rgb(132, 120, 15);
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+    margin-top: -17px;
+
+
+}
+
+.card1child2{
+    background-color:rgb(255, 255, 255) ;
+
+    color: rgb(41, 38, 38);
+     width: 20px;
+   margin-left: 60px;
+   border-radius: 50%;
+   padding-left: 2px;
+   padding-right: 2px;
+}
+.card2child2{
+    background-color:rgb(255, 255, 255) ;
+
+    color: rgb(130, 44, 44);;
+
+     width: 20px;
+   margin-left: 60px;
+   border-radius: 50%;
+   padding-left: 2px;
+   padding-right: 2px;
+}
+.card3child2{
+    background-color:rgb(255, 255, 255) ;
+
+    color:  orangered;
+     width: 20px;
+   margin-left: 60px;
+   border-radius: 50%;
+   padding-left: 2px;
+   padding-right: 2px;
+}
+.card4child2{
+    background-color:rgb(255, 255, 255) ;
+
+    color: green;
+     width: 20px;
+   margin-left: 60px;
+   border-radius: 50%;
+   padding-left: 2px;
+   padding-right: 2px;
+}
+.card5child2{
+    background-color:rgb(255, 255, 255) ;
+
+    color:rgb(132, 120, 15);
+     width: 20px;
+   margin-left: 60px;
+   border-radius: 50%;
+   padding-left: 2px;
+   padding-right: 2px;
+}
+.h4heading{
+    margin-left: 100px;
+    color: black;
+}
+.h5{
+    height: 260px;
+}
+
+.h5child{
+    border-top: 2px solid black;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    margin-top: 18px;
+}
+.h5left{
+margin-top: 20px;
+    border-right: 2px solid black;
+
+}
+.h5content{
+    margin-top: 90px;
+    margin-right: 10px;
+}
+.h5right{
+
+
+}
+
+.registration{
+    margin-left: 20px;
+    margin-top: 40px;
+    /* width: 250px; */
+
+}
+.name{
+    border: hidden;
+    border-left: 2px solid black;
+    width: 250px;
+   padding: 10px;
+}
+.email{
+    border: hidden;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    padding: 10px;
+
+
+    width: 300px;
+
+}
+.password{
+    border: hidden;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    padding: 10px;
+
+
+    width: 300px;
+
+
+}
+.confirmPassword{
+    border: hidden;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    padding: 10px;
+
+
+    width: 300px;
+
+}
+.btnsignIn{
+    width: 300px;
+    background-color: rgb(17, 17, 28);
+    color: white;
+
+
+}
+.formError{
+    color: red;
+}
+.h6{
+    margin-top: 200px;
+    background-color: rgb(174, 166, 166);
+    height: 200px;
+    
+}
+.h6child{
+    padding: 5px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.image03{
+    width: 50px;
+    height: 45px;
+}
+.para{
+    font-size: 12px;
+    margin-top: 3px;
+
+}
+.hpara{
+    color: rgb(224, 226, 232);
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    
+}
